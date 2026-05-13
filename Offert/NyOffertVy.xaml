@@ -1,0 +1,53 @@
+
+
+<UserControl x:Class="FaVSD.NyOffertVy"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        
+        <StackPanel Grid.Row="0" Grid.Column="0">
+
+            <TextBlock Text="Skapa offert"/>
+
+            <TextBlock Text="OrganisationsNummer" />
+            <TextBox x:Name="KundnummerTextLada" />
+            <Button Content="Hitta din kund"
+                Click="OppnaKundPanel"/>
+
+            <TextBlock Text="Produkter och Material" />
+            <ComboBox x:Name="ValdaProdukterComboLada" />
+            <Button Content="Lägg till produkter eller material"
+                Click="OppnaProduktPanel"/>
+
+            <TextBlock Text="TotalKostnad"/>
+
+            <Button Content="Lägg till Offert" 
+                Click="LaggTillOffertKlick"/>
+            <Button Content="Gå tillbaka till meny"
+                Click="GaTillMeny"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+
+            <ContentControl x:Name="DetaljPanel"/>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

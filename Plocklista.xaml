@@ -1,0 +1,72 @@
+
+
+
+<UserControl x:Class="FaVSD.PlocklistaVy"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        
+        <StackPanel Grid.Row="0" Grid.Column="0">
+
+            <ListBox x:Name="PlocklistaListaLada"
+                SelectionChanged="AndraValdPlocklista"/>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+
+            <Button Content="Återvänd till meny" 
+                Click="GaTillMeny"/>
+            
+            <TextBlock Text="Skapa plocklista" />
+
+            <TextBlock Text="Giltig till" />
+            <DatePicker x:Name="GiltigTillDatumLada" />
+
+            <TextBlock Text="Status" />
+            <ComboBox x:Name="StatusComboLada" />
+
+
+            <Button Content="Lägg till plocklista" 
+                Click="TestaLaggTillPlocklistaKlick"/>
+
+            <Button Content="Ta bort vald plocklista" 
+                Click="TaBortValdKlick"/>
+
+            <Button Content="Uppdatera vald plocklista" 
+                Click="UppdateraValdPlocklistaKlick"/>
+            
+            <TextBlock Text="Sortering"
+                x:Name="SorteringTextLada"/>
+
+            <Button Content="Ändra sortering"
+                Click="AndraSorteringKlick"/>
+
+            <TextBox x:Name="SokTextLada"/>
+            <CheckBox x:Name="SokCheckLada"/>
+            <DatePicker x:Name="SokDatumLada"/>
+            <Button Content="Sök"
+                Click="SokKlick"/>
+
+            <TextBlock Text="Detaljer" />
+            <TextBlock x:Name="DetaljTextLada" Text="Ingen plocklista vald." />
+
+        </StackPanel>
+    </Grid>
+</UserControl>
