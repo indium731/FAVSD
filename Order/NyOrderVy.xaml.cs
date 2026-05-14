@@ -29,6 +29,11 @@ namespace FaVSD
         {
             DetaljPanel.Content = new NyOffertProdukterPanel();
         }
+        private void KonverteraOffertKlick(Object sender, RoutedEventArgs e)
+        {
+            var mainWin = (MainWindow)Window.GetWindow(this);
+            mainWin.Vy.Content = new KonverteraVy();
+        }
 
 
 

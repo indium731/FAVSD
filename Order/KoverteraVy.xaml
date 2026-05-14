@@ -1,6 +1,4 @@
-
-
-<UserControl x:Class="FaVSD.PlocklistaHuvudPanel"
+<UserControl x:Class="FaVSD.KonverteraVy"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,16 +6,38 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
 
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        
+        <StackPanel Grid.Row="0" Grid.Column="0">
+
+            <ListBox x:Name="OffertListaLada"
+                SelectionChanged="AndraValdOffert"/>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
 
             <Button Content="Återvänd till meny" 
                 Click="GaTillMeny"/>
             
-            <TextBlock Text="Hitta rätt plocklista" />
+            <TextBlock Text="Hitta rätt offert" />
 
-            <Button Content="Uppdatera vald plocklista" 
-                Click="UppdateraValdPlocklistaKlick"/>
+            <Button Content="Uppdatera vald offert" 
+                Click="UppdateraValdOffertKlick"/>
+
+            <Button Content="Konvertera vald offert" 
+                Click="KonverteraValdOffertKlick"/>
             
             <TextBlock Text="Sortering"
                 x:Name="SorteringTextLada"/>
@@ -33,8 +53,7 @@
             <Button Content="Sök"
                 Click="SokKlick"/>
 
-            <TextBlock Text="Detaljer" />
-            <TextBlock x:Name="DetaljTextLada" Text="Ingen plocklista vald." />
         </StackPanel>
 
+    </Grid>
 </UserControl>

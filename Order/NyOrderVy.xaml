@@ -37,6 +37,10 @@
 
             <Button Content="Lägg till order" 
                 Click="LaggTillOrderKlick"/>
+            
+            <Button Content="Konvertera en offert till order"
+                Click="KonverteraOffertKlick"/>
+
             <Button Content="Gå tillbaka till meny"
                 Click="GaTillMeny"/>
 

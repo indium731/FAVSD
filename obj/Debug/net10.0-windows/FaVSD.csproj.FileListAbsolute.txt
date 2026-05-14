@@ -38,3 +38,5 @@ C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\Plockli
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\PlocklistaHuvudPanel.g.cs
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\ValdPlocklistaVy.baml
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\ValdPlocklistaVy.g.cs
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Order\KoverteraVy.baml
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Order\KoverteraVy.g.cs
