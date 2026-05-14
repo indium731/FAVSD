@@ -10,10 +10,6 @@ C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\MainWindow.baml
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\FaVSD.dll
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\refint\FaVSD.dll
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\FaVSD.pdb
-C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\OrderVy.baml
-C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\OrderVy.g.cs
-C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Plocklista.baml
-C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Plocklista.g.cs
 C:\Users\alfre\VSCodeProjects\FaVSD\bin\Debug\net10.0-windows\FaVSD.exe
 C:\Users\alfre\VSCodeProjects\FaVSD\bin\Debug\net10.0-windows\FaVSD.deps.json
 C:\Users\alfre\VSCodeProjects\FaVSD\bin\Debug\net10.0-windows\FaVSD.runtimeconfig.json
@@ -33,3 +29,12 @@ C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Offert\NyOffertVy.
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Offert\NyOffertKunderPanel.g.cs
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Offert\NyOffertProdukterPanel.g.cs
 C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Offert\NyOffertVy.g.cs
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Order\NyOrderVy.baml
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\Order\NyOrderVy.g.cs
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\FaVSD.sourcelink.json
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\Plocklista.baml
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\Plocklista.g.cs
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\PlocklistaHuvudPanel.baml
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\PlocklistaHuvudPanel.g.cs
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\ValdPlocklistaVy.baml
+C:\Users\alfre\VSCodeProjects\FaVSD\obj\Debug\net10.0-windows\PlockLista\ValdPlocklistaVy.g.cs

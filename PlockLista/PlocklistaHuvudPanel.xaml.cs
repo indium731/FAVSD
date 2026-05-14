@@ -1,14 +1,12 @@
 
-
-
 using System.Windows;
 using System.Windows.Controls;
 
 namespace FaVSD
 {
-    public partial class PlocklistaVy : UserControl
+    public partial class PlocklistaHuvudPanel: UserControl
     {
-        public PlocklistaVy()
+        public PlocklistaHuvudPanel()
         {
             InitializeComponent();
         }
@@ -34,6 +32,14 @@ namespace FaVSD
 
         private void UppdateraValdPlocklistaKlick(Object sender, RoutedEventArgs e)
         {
+            var mainWin = Window.GetWindow(this);
+            
+            var vyInstance = mainWin.FindName("Vy") as ContentControl;
+            if (vyInstance.Content is PlocklistaVy plv)
+            {
+
+                plv.SattDetaljPanel(new ValdPlocklistaVy());
+            }
         }
 
         private void AndraSorteringKlick(Object sender, RoutedEventArgs e)

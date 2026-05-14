@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\alfre\VSCodeProjects\FaVSD\App.xaml
-81946890667
+10-37495001
 
-122047618893
+14-1999776103
 2061601768811
-InloggVy.xaml;MainWindow.xaml;MenyVy.xaml;Offert\NyOffertKunderPanel.xaml;Offert\NyOffertProdukterPanel.xaml;Offert\NyOffertVy.xaml;OrderVy.xaml;Plocklista.xaml;
+InloggVy.xaml;MainWindow.xaml;MenyVy.xaml;Offert\NyOffertKunderPanel.xaml;Offert\NyOffertProdukterPanel.xaml;Offert\NyOffertVy.xaml;Order\NyOrderVy.xaml;PlockLista\Plocklista.xaml;PlockLista\PlocklistaHuvudPanel.xaml;PlockLista\ValdPlocklistaVy.xaml;
 
 False
 
