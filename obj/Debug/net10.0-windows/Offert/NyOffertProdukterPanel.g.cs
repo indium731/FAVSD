@@ -67,7 +67,7 @@ namespace FaVSD {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FaVSD;component/offert/nyoffertprodukterpanel.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FaVSD;V1.0.0.0;component/offert/nyoffertprodukterpanel.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Offert\NyOffertProdukterPanel.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

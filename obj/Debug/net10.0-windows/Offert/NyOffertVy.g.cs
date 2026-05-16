@@ -75,7 +75,7 @@ namespace FaVSD {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FaVSD;component/offert/nyoffertvy.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FaVSD;V1.0.0.0;component/offert/nyoffertvy.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Offert\NyOffertVy.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

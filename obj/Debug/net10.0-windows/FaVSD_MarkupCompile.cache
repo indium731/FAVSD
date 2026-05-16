@@ -1,5 +1,5 @@
 ﻿FaVSD
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 C:\Users\alfre\VSCodeProjects\FaVSD\App.xaml
 11-1710119601
 
-151423255850
+24-371118431
 2061601768811
 InloggVy.xaml;MainWindow.xaml;MenyVy.xaml;Offert\NyOffertKunderPanel.xaml;Offert\NyOffertProdukterPanel.xaml;Offert\NyOffertVy.xaml;Order\KoverteraVy.xaml;Order\NyOrderVy.xaml;PlockLista\Plocklista.xaml;PlockLista\PlocklistaHuvudPanel.xaml;PlockLista\ValdPlocklistaVy.xaml;
 
-False
+True
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FaVSD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84d95686b3aea0cbf301e1b035d3a303ed607de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+646a163c52f6b3f3b3f7d9be97ab6a022c7c126c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FaVSD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FaVSD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
